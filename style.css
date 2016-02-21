@@ -1,0 +1,87 @@
+body{
+    background-color:purple;
+    color: black;
+}
+
+
+#title-row{
+/*    margin-top: 1em;*/
+    font-size: 48pt;
+    font-family: Roboto;
+}
+
+.center-block {
+    margin: 0 auto;
+}
+
+#search-row {
+    display: none;
+
+}
+
+#searchform input[type="search"] {
+    height: 75px;
+    width: 100%;
+    /*max-width: 500px;*/
+    font-size: 32pt;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    font-family: Open Sans;
+    padding-left: 25px;
+}
+
+.btn, .btn:hover, .btn:active {
+    color:black;
+}
+
+
+.my-btn{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: purple;
+    border: none; 
+    display:inline-block;
+    cursor:pointer;
+}
+
+
+.my-btn a,
+.my-btn a:hover,
+.my-btn a:visited,
+.my-btn a:active {
+    color:black;
+}
+
+
+.my-btn i.fa {
+    font-size: 60px;
+}
+
+.result-wrapper {
+    padding: 25px;
+    background-color: #E7E7E8;
+    margin-bottom: 5px; 
+    color: black;
+
+}
+
+.result-title {
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+.result-extract {
+    font-size: 14pt;
+    font-style: italic;
+
+}
+
+#search-row a,
+#search-row a:hover,
+#search-row a:visited,
+#search-row a:active {
+    color: black;
+
+}
+
